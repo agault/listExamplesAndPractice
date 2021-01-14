@@ -10,7 +10,7 @@ namespace listExamplesAndPractice
             var numbers = new List<int>() { 1, 2, 3, 4, 5};
             //Add
             numbers.Add(1);//Added to end
-            numbers.AddRange(new int[3] {5, 6, 7});//Added to end
+            numbers.AddRange(new int[3] {5, 6, 7});//Added to end.
 
             foreach (var number in numbers)
             {
